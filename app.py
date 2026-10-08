@@ -272,12 +272,12 @@ if not st.session_state.onboarded:
 
             name_input = st.text_input(
                 "Your Name",
-                placeholder="e.g. Siva Jaswanth",
+                placeholder="e.g. Alex",
                 help="What should Chef PantryRescue call you?",
             )
             phone_input = st.text_input(
                 "WhatsApp Number (with country code)",
-                placeholder="+918309653784",
+                placeholder="+911234567890",
                 help="Enter your WhatsApp number. 10-digit numbers automatically default to India (+91).",
             )
 
